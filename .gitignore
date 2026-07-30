@@ -1,0 +1,26 @@
+# Backend
+backend/target/
+backend/*.class
+backend/*.jar
+backend/*.log
+backend/.idea/
+backend/*.iml
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Environment files
+.env
+.env.local
+.env.production.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

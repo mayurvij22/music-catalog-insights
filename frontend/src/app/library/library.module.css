@@ -1,0 +1,66 @@
+.editAlbumInfo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: var(--bg-glass);
+  border-radius: var(--radius-md);
+}
+
+.editArtwork {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+}
+
+.editTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.editArtist {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.ratingInput {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.starBtn {
+  background: none;
+  border: none;
+  font-size: 1.75rem;
+  cursor: pointer;
+  color: var(--text-tertiary);
+  transition: all var(--transition-fast);
+  padding: 0.1rem;
+}
+
+.starBtn:hover {
+  transform: scale(1.2);
+}
+
+.starActive {
+  color: var(--accent-amber);
+}
+
+.clearRating {
+  margin-left: 0.5rem;
+  background: none;
+  border: none;
+  color: var(--text-tertiary);
+  font-family: var(--font-family);
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.clearRating:hover {
+  color: var(--text-secondary);
+}
