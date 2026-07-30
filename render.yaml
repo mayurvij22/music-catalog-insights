@@ -2,7 +2,7 @@ services:
   - type: web
     name: music-catalog-api
     runtime: docker
-    rootDirectory: backend
+    rootDir: backend
     dockerfilePath: Dockerfile
     plan: free
     envVars:
