@@ -1,10 +1,23 @@
-# Music Catalog Insights Platform 🎵
+<div align="center">
 
-A full-stack web application that lets users search a public music catalog (iTunes), save albums into a personal library, view rich analytics dashboards, and receive AI-driven music recommendations.
+# 🎵 Music Catalog Insights Platform
 
-**Live Demo**: _[To be added after deployment]_
+**Search the iTunes catalog, build a personal album library, explore analytics dashboards and get AI-driven music
+recommendations.**
+
+![Java](https://img.shields.io/badge/Java%2017-ED8B00?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?logo=chartdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/H2%20%7C%20PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-CI-4E9BCD?logo=sonarqube&logoColor=white)
+
+### [🌐 Live demo](https://music-catalog-insights-opal.vercel.app)
+
+</div>
 
 ---
+
 
 ## 📌 Entity Choice: Albums
 
@@ -225,3 +238,11 @@ project/
 │   └── src/lib/                # API Client, Auth, Toast
 └── README.md
 ```
+
+---
+
+<div align="center">
+
+Made by **[Mayur Patil](https://github.com/mayurvij22)**
+
+</div>
